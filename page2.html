@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Form</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    
+    <form action="page1.html" method="get" name="genForms">
+        <h1>General Details</h1><br>
+        <span>Name :</span><br><input type="text" name="name" ><br>
+        <span>Age :</span><br><input type="number" name="age" ><br>
+        <span>Address :</span><br>
+        <textarea name="addr" cols="30" rows="10"></textarea><br>
+        <span>Gender :</span><br>
+        <span>Male :</span>
+        <input type="radio" name="gender" value="Male">
+        <span>Female :</span>
+        <input type="radio" name="gender" value="Female"><br>
+        <span>Country :</span><br>
+        <select name="country" >
+            <option value="">Select</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+        </select><br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+    
+</body>
+</html>
